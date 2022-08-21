@@ -55,6 +55,35 @@ pub fn spawn_corn_field(
                         ..default()
                     });
                 });
+
+            // commands
+            //     .spawn()
+            //     .insert(Tile {
+            //         plant: Plant {
+            //             plant_type: PlantType::Corn,
+            //             growth: Growth::Sprout,
+            //             growth_timer: Timer::from_seconds(10.0, true),
+            //         },
+            //     })
+            //     .insert_bundle(SceneBundle {
+            //         scene: tile_assets.tile_scene.clone(),
+            //         transform: Transform::from_xyz(
+            //             (w - (FIELD_WIDTH / 2)) as f32,
+            //             0.,
+            //             (l - (FIELD_LENGTH / 2)) as f32,
+            //         )
+            //         .with_rotation(Quat::from_rotation_y(0.)),
+            //         ..default()
+            //     })
+            //     .insert_bundle(SceneBundle {
+            //         scene: plant_assets.corn_sprout.clone(),
+            //         transform: Transform::from_xyz(
+            //             (w - (FIELD_WIDTH / 2)) as f32,
+            //             0.,
+            //             (l - (FIELD_LENGTH / 2)) as f32,
+            //         ),
+            //         ..default()
+            //     });
         }
     }
 }
